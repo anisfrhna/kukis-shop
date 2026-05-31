@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+}
+
+.navbar{
+    background-color: #8B4513;
+}
+
+.hero{
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('https://i.pinimg.com/1200x/49/cc/68/49cc685597353d59d6d17f3fcaa9fe74.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 22px;
+}
+
+.service-card,
+.product-card{
+    transition: 0.3s;
+}
+
+.service-card:hover,
+.product-card:hover{
+    transform: translateY(-8px);
+}
+
+h2{
+    color: #8B4513;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
